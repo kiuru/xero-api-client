@@ -1,0 +1,5 @@
+*.pem
+*.json
+xero.log*
+Gemfile.lock
+*.exe
