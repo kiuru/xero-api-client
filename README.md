@@ -13,6 +13,6 @@ Example:
 
 	ruby get_data.rb ABCDEFG1234567 2019-01-20
 
-## Create Windodws executable file
+## Create Windows executable file
 
 	ocra get_data.rb --no-autoload --gem-full --gemfile Gemfile
