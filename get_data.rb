@@ -47,9 +47,11 @@ if not defined?(Ocra)
 	data += "]}"
 	puts "Total: #{total_journals} journals"
 	
-	File.open("transactions.json","w") do |f|
+	File.open("transactions.tmp","w") do |f|
 		f.write(data)
 	end
+	
+	File.rename("transactions.tmp", "transactions.json")
 	
 	puts "Transactions are written to the file"
 end
