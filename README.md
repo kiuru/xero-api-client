@@ -7,6 +7,8 @@ This client handle a issue if you would like to get large amount of journals fro
 
 ## Usage
 
+Firstly, save `privatekey.pem` in the same folder with `get_data.rb` script.
+
 ruby get_data.rb [consumer_key] [from<date>]
 
 Example:
